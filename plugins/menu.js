@@ -34,7 +34,7 @@ let ucpn = `${ucapan()}`
 
 // Kata
 let kata = `${pickRandom('Semangat!', 'Jangan menyerah!')}`
-let dann = `Hai ${name}\n\n*Dann-MD* adalah bot Rpg PlayGround's yg membantu membuat sticker, dan membuat kalian bermain dengan senang-senang.\n\nBerikut ini list yang tersedia:\n\n• .allmenu [ Menampilkan Semua Perintah ]\n• .aimenu\n• .stickermenu\n\n2023 © Dann-MD\nBot masih dalam tahap Pengembangan.`
+let dann = `Hai ${name}\n\n*HaFlash-BOT* adalah bot yang membantu membuat sticker, dan membuat kalian bermain dengan senang-senang.\n\nBerikut ini list yang tersedia:\n\n• .allmenu [ Menampilkan Semua Perintah ]\n• .aimenu\n• .stickermenu\n\n2023 © Dann-MD\nBot masih dalam tahap Pengembangan.`
 let menu = [
     '🗿'
     ]
@@ -44,7 +44,7 @@ let menu = [
     key: m.key,
     }})
 
-conn.fakeReply(m.chat, dann, '0@s.whatsapp.net', '2023 © Dann-MD', 'status@broadcast')
+conn.fakeReply(m.chat, dann, '0@s.whatsapp.net', '2023 © HaFlash-BOT', 'status@broadcast')
 conn.sendFile(m.chat, './mp3/dann.mp3', '', null, m, true, { type: "audioMessage", ptt: true, fileLength: 88738 })
 }
 handler.help = ['menu']
