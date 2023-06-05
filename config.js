@@ -25,12 +25,12 @@ let wibh = moment.tz('Asia/Jakarta').format('HH')
 
 // Owner
 global.owner = [
-  ['6283137550315'],
-  ['6283137550315'],
-  ['6283137550315', 'DannLonely', 'danigtps@gmail.com', true]
+  ['6285171662264'],
+  ['6281354060278'],
+  ['6285651307830', 'Hafizh', 'muhafid6422@gmail.com', true]
 ] // Put your number here
-global.mods = ['6283137550315'] // Moderator
-global.prems = ['6283137550315'] // Premium
+global.mods = ['6285651307830'] // Moderator
+global.prems = ['6285651307830'] // Premium
 global.APIs = { // API Prefix
   // name: 'https://website'
   nrtm: 'https://nurutomo.herokuapp.com',
@@ -65,8 +65,8 @@ process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = 0
 const spack = fs.readFileSync("lib/exif.json")
 const stickerpack = JSON.parse(spack)
 if (stickerpack.spackname == '') {
-  var sticker_name = 'Dann-MD\n\nOwner: +62 831-3755-0315'
-  var sticker_author = 'DannTeam'
+  var sticker_name = 'HaFlazh-BOT\n\nOwner: +62 856 5130 7830'
+  var sticker_author = 'Hafizh'
 } else {
   var sticker_name = stickerpack.spackname
   var sticker_author = stickerpack.sauthor
@@ -83,33 +83,35 @@ fs.watchFile(file_exif, () => {
 // Database
 global.version = '1.1.5'
 global.sessionName = 'Dann'
-global.gcbot = 'https://chat.whatsapp.com/KsflYNKrlNP1BnLMKHyulz'
-global.instagram = 'https://instagram.com/dannalwaysalone'
-global.namebot = 'Dann-MD Rpg PlayGround\'s'
-global.giflogo = 'https://telegra.ph/file/d99857d74715351bdcd6c.mp4'
-global.thumb = 'https://telegra.ph/file/96d00335b194ad6bf97c2.jpg'
-global.thumbnail = 'https://telegra.ph/file/96d00335b194ad6bf97c2.jpg'
-global.giflogo2 = 'https://telegra.ph/file/d99857d74715351bdcd6c.mp4'
-global.qris = 'https://telegra.ph/file/ce0037b2c2bb2ded15e40.jpg'
+global.gcbot = 'https://chat.whatsapp.com/FZSXzC6XEl12h5mg2dSGJt'
+global.instagram = 'https://instagram.com/hfizh22'
+global.namebot = 'HaFlazh-BOT\'s'
+global.giflogo = 'https://v1.pinimg.com/videos/mc/720p/ef/fd/de/effdded87e0f2260e801bfee42517cc4.mp4'
+global.thumb = 'https://telegra.ph/file/6a5bd6da4dbdf8dead932.png'
+global.thumbnail = 'https://telegra.ph/file/4aab52043f8faf1727355.jpg'
+global.giflogo2 = 'https://v1.pinimg.com/videos/mc/720p/41/b4/c1/41b4c1e309edadcb076a8cc4bb410f2d.mp4'
+global.qris = 'https://telegra.ph/file/6303a7615d79c47f0035b.jpg'
 
 // Sosial Media
-global.sig = 'https://instagram.com/dannalwaysalone'
-global.syt = 'https://youtube.com/@dannofficials'
-global.sgh = 'https://github.com/DannOfficial'
-global.sgc = 'https://chat.whatsapp.com/FR1KfE3OTcQCayiabos8Ff'
-global.swa = 'https://wa.me/+6283137550315'
-global.swb = 'https://discord.gg/dannrpg' // Link Discord
-global.snh = 'https://nhentai.net/g/365296/' // Link nhentai
+global.sig = 'https://instagram.com/hfizh22'
+global.syt = 'https://youtube.com/@hafizhflash22'
+global.sgh = 'https://github.com/hafizhprjct'
+global.sgc = 'https://chat.whatsapp.com/FZSXzC6XEl12h5mg2dSGJt'
+global.swa = 'https://wa.me/6285651307830'
+global.swb = 'https://discord.gg/XHM8XbqHV6' // Link Discord
+global.snh = 'https://telegra.ph/file/128ead3a5bf6fca904e08.jpg' // Link nhentai
 
 // Pembayaran
-global.pdana = '6283137550315'
-global.povo = '6283137550315'
-global.pgopay = '6283137550315'
-global.pulsa = '6283137550315'
-global.pulsa2 = '62895342959060'
-global.psaweria = 'https://saweria.co/DannXD'
-global.ptrakteer = 'https://trakteer.id/DannXD'
-global.psbuzz = 'https://socialbuzz.com/DannXD'
+global.pdana = '6285651307830'
+global.povo = '6285651307830'
+global.pgopay = '6285651307830'
+global.shopeepay = '6285651307830'
+global.linkaja = '6285651307830'
+global.pulsa = '6285651307830'
+global.pulsa2 = '6281354060278'
+global.psaweria = 'https://saweria.co/HafizhFlash'
+global.ptrakteer = 'https://trakteer.id/HafizhFlash22''
+global.psbuzz = 'https://socialbuzz.com/Hafizh_Flash'
 
 // Fake Size
 global.fsizedoc = '99999999999999' // default 10TB
@@ -120,17 +122,17 @@ global.useMulti = false
 // Watermark
 global.packname = sticker_name
 global.author = sticker_author
-global.wm = '2023 © Dann-MD'
-global.wm2 = 'Dann\'s'
+global.wm = 'HaFlash-BOT'
+global.wm2 = 'wa.me/6285171662264'
 global.bottime = `Time: ${wktuwib}`
 global.botdate = `Date: ${week} ${date}\nTime: ${wktuwib}`
 global.titlebot = `${global.wm}`
 global.danied = '✘ 𝗘𝗥𝗥𝗢𝗥 𝟰𝟬𝟰'
 global.packname = sticker_name
 global.author = sticker_author
-global.ultahowner = '20 Desember 2023'
-global.nomorown = '6283137550315'
-global.nameown = 'DannTeam'
+global.ultahowner = '22 Juni 2023'
+global.nomorown = '6285651307830'
+global.nameown = 'Hafizh'
 global.wait = 'Tunggu Sebentar...'
 
 // Tampilan
