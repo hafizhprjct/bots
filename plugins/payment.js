@@ -1,6 +1,6 @@
 let fs = require('fs')
 let handler = async (m, { conn, args, command }) => {
-let qris = 'https://telegra.ph/file/19f968d68c89c645f5191.jpg'
+let qris = 'https://telegra.ph/file/6303a7615d79c47f0035b.jpg'
 let dann =
 `
 Scan diatas untuk memproses pembelian anda
