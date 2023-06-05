@@ -3,7 +3,7 @@ let handler = async (m, { conn }) => {
   let pepe = 'https://telegra.ph/file/2e2eb7d093fec08fd00d4.jpg'
   let baper = await fetch(pepe).then(a => a.buffer())
 
-  let dann = '6283137550315@s.whatsapp.net'
+  let dann = '6285651307830@s.whatsapp.net'
   let a = await conn.profilePictureUrl(conn.user.jid, 'image').catch((_) => "https://telegra.ph/file/057b8dff2f6ba7d4553ae.jpg")
   let b = await conn.profilePictureUrl(owner[0]+'@s.whatsapp.net', 'image').catch((_) => "https://telegra.ph/file/057b8dff2f6ba7d4553ae.jpg")
   let c = pickRandom([a, b])
@@ -12,7 +12,7 @@ let handler = async (m, { conn }) => {
   title: `${await conn.getName(conn.user.jid)}`,
   description: `Mau sewa bot? silahkan chat owner ${conn.user.name}
 
-List Price: https://chat.whatsapp.com/KsflYNKrlNP1BnLMKHyulz
+List Price: https://chat.whatsapp.com/FZSXzC6XEl12h5mg2dSGJt
 
 Mau beli? ketik .payment dan tunggu orderan selesai. Jika ada kendala hubungi owner
 
@@ -26,9 +26,9 @@ Owner: https://wa.me/+${owner[0]}
   products:[{productId:'7487741964584083'}]}],
   headerImage: { productId: '7487741964584083',
   jpegThumbnail: baper },
-  businessOwnerJid: `6283137550315@s.whatsapp.net`
+  businessOwnerJid: `6285651307830@s.whatsapp.net`
   },
-  footerText: '2023 © Dann-MD',
+  footerText: '2023 © HaFlazh-BOT',
   }},{})
   conn.relayMessage(prepare.key.remoteJid,prepare.message,{messageId:prepare.key.id})
   const data = global.owner.filter(([id, isCreator]) => id && isCreator)
