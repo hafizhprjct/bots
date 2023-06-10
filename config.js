@@ -57,7 +57,7 @@ global.APIKeys = { // APIKey Here
   'https://x-restapi.herokuapp.com': 'BETA',
   'https://api-alphabot.herokuapp.com': 'N7axnIq3',
   'https://api.botcahx.biz.id': 'admin',
-  'https://dannteam.com': 'DannTeam'
+  'https://dannteam.com': '23BkIfIg6w'
 }
 
 process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = 0
